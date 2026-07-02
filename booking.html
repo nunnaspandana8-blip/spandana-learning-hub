@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Travel Package | MANTRA Travels</title>
+  <meta name="description" content="Submit a travel booking enquiry using a JavaScript validated booking form.">
+  <meta name="keywords" content="travel booking, enquiry form, package booking">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html">MANTRA Travels</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="destinations.html">Destinations</a>
+      <a href="packages.html">Packages</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="booking.html">Booking</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="page-banner"><div class="container"><h1>Booking Form</h1><p>Submit your travel enquiry. JavaScript will validate the form.</p></div></section>
+<section class="container section form-section">
+  <h2>Book Your Trip</h2>
+  <form id="bookingForm">
+    <label for="name">Full Name</label><input type="text" id="name" placeholder="Enter your name">
+    <label for="email">Email Address</label><input type="email" id="email" placeholder="Enter your email">
+    <label for="phone">Mobile Number</label><input type="tel" id="phone" placeholder="Enter 10-digit mobile number">
+    <label for="destination">Preferred Destination</label><select id="destination"><option value="">Select Destination</option><option>Kerala</option><option>Jaipur</option><option>Goa</option><option>Shimla</option></select>
+    <label for="message">Message</label><textarea id="message" rows="4" placeholder="Write your travel requirement"></textarea>
+    <button class="btn" type="submit">Submit Enquiry</button><p id="formMessage" class="result"></p>
+  </form>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>MANTRA Travels</h3>
+      <p>A student sample frontend website created using HTML, CSS and JavaScript.</p>
+    </div>
+    <div>
+      <h3>Quick Links</h3>
+      <p><a href="destinations.html">Destinations</a> | <a href="packages.html">Packages</a> | <a href="booking.html">Book Now</a></p>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>Email: info@mantratravels.com<br>Phone: +91-9876543210</p>
+    </div>
+  </div>
+  <p class="copyright">© 2026 MANTRA Travels. Designed for MANTRA 2026 Summer School.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
